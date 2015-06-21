@@ -32,6 +32,8 @@ To display the live dashboard, I am using [Freeboard.io](https://freeboard.io/).
 
 ![Raspberry Pi](https://raw.githubusercontent.com/krvarma/RPiPubNub/master/images/IMG_0063.JPG)
 
+![Freeboard.io](https://raw.githubusercontent.com/krvarma/RPiPubNub/master/images/freeboard.png)
+
 ![Freeboard.io](https://raw.githubusercontent.com/krvarma/RPiPubNub/master/images/IMG_0057.JPG)
 
 **Demo Video**
