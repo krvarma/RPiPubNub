@@ -15,8 +15,9 @@ To display the live dashboard, I am using [Freeboard.io](https://freeboard.io/).
 **Using the sample**
 
 1. Open the solution *`RPiPubNub.sln`* in Visual Studio 2015.
-2. Select the *`'Remote Device'`* option under the Debug Tab.
-3. Rebuild the project and run it.
+2. Replace the [publish and subscribe keys with your keys](https://github.com/krvarma/RPiPubNub/blob/master/src/RPiPubNub/MainPage.xaml.cs#L74) 
+3. Select the *`'Remote Device'`* option under the Debug Tab.
+4. Rebuild the project and run it.
 
 **Steps to create live dashboard**
 
