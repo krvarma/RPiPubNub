@@ -21,11 +21,17 @@ To display the live dashboard, I am using [Freeboard.io](https://freeboard.io/).
 **Steps to create live dashboard**
 
 1. Logon to Freeboard.io
-2. Create a datasource with type *`PubNub`*, enter the name *`RPI-PubNub`*, enter your PubNub subscribe key and enter the channel *`rpipb-temperature`*.
-3. Create a widget with type *`Guage`*, enter the datasource *`datasources["RPi-PubNub"].Temperature`*, enter units, minimum and maximum.
-4. Create a widget with type *`HTML`*, open the *`.JS Editor`* and copy and paste the contents *`REDLed.js`* (see below) file and name it as *`RED LED`*.
+2. Create a datasource with type *`PubNub`*, enter the name *`RPI-PubNub`*, enter your PubNub subscribe key and enter the channel *`rpipb-temperature`*. ![enter image description here](https://raw.githubusercontent.com/krvarma/RPiPubNub/master/images/datasource.png)
+3. Create a widget with type *`Guage`*, enter the datasource *`datasources["RPi-PubNub"].Temperature`*, enter units, minimum and maximum.  ![enter image description here](https://raw.githubusercontent.com/krvarma/RPiPubNub/master/images/temperature-widget.png)
+4. Create a widget with type *`HTML`*, open the *`.JS Editor`* and copy and paste the contents *`REDLed.js`* (see below) file and name it as *`RED LED`*. ![enter image description here](https://raw.githubusercontent.com/krvarma/RPiPubNub/master/images/led-widget.png)
 5. Create another widget with type *`HTML`* open the *`.JS Editor`* and copy and paste the contents *`GREENLed.js`* (see below) file and name it as *`GREEN LED`*.
 
 **Screenshots**
+
+![Raspberry Pi](https://raw.githubusercontent.com/krvarma/RPiPubNub/master/images/IMG_0059.JPG)
+
+![Raspberry Pi](https://raw.githubusercontent.com/krvarma/RPiPubNub/master/images/IMG_0063.JPG)
+
+![Freeboard.io](https://raw.githubusercontent.com/krvarma/RPiPubNub/master/images/IMG_0057.JPG)
 
 **Demo Video**
