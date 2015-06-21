@@ -71,7 +71,7 @@ namespace RPiPubNub
         };
 
         // PubNub publish and subscribe keys
-        Pubnub pubnub = new Pubnub("pub-c-60886db0-45cd-4921-9864-a4740e5493d8", "sub-c-075dba22-0cfe-11e4-8880-02ee2ddab7fe");
+        Pubnub pubnub = new Pubnub("<<publish-key>>", "subscribe-key>>");
         Random rnd = new Random();
 
         public MainPage()
