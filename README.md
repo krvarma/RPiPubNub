@@ -28,6 +28,8 @@ To display the live dashboard, I am using [Freeboard.io](https://freeboard.io/).
 
 **Screenshots**
 
+![Circuit](https://raw.githubusercontent.com/krvarma/RPiPubNub/master/images/fritzing.png)
+
 ![Raspberry Pi](https://raw.githubusercontent.com/krvarma/RPiPubNub/master/images/IMG_0059.JPG)
 
 ![Raspberry Pi](https://raw.githubusercontent.com/krvarma/RPiPubNub/master/images/IMG_0063.JPG)
