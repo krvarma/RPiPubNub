@@ -7,20 +7,20 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="8f6199ef-347c-491b-ba33-68b4cb114e64"
-    Publisher="CN=krvarma"
+    Name="cd182ca4-f712-4b46-b49e-07236a464458"
+    Publisher="CN=krvar"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="8f6199ef-347c-491b-ba33-68b4cb114e64" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="cd182ca4-f712-4b46-b49e-07236a464458" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>RPiPubNub</DisplayName>
-    <PublisherDisplayName>krvarma</PublisherDisplayName>
+    <PublisherDisplayName>krvar</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 
   <Dependencies>
-    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.10069.0" MaxVersionTested="10.0.10069.0" />
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.0.0" MaxVersionTested="10.0.0.0" />
   </Dependencies>
 
   <Resources>
@@ -33,10 +33,11 @@
       EntryPoint="RPiPubNub.App">
       <uap:VisualElements
         DisplayName="RPiPubNub"
-        Square150x150Logo="Assets\Logo.png"
-        Square44x44Logo="Assets\SmallLogo.png"
+        Square150x150Logo="Assets\Square150x150Logo.png"
+        Square44x44Logo="Assets\Square44x44Logo.png"
         Description="RPiPubNub"
-        BackgroundColor="#464646">
+        BackgroundColor="transparent">
+        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png"/>
         <uap:SplashScreen Image="Assets\SplashScreen.png" />
       </uap:VisualElements>
     </Application>
@@ -44,6 +45,5 @@
 
   <Capabilities>
     <Capability Name="internetClient" />
-    <Capability Name="internetClientServer" />
   </Capabilities>
 </Package>
